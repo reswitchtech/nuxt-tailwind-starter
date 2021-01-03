@@ -1,4 +1,4 @@
-# Reswitch Nuxt starter project
+# Reswitch Tailwind + Nuxt starter project
 
 ## Build Setup
 
