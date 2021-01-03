@@ -1,0 +1,46 @@
+// Links
+a {
+    @apply text-blue-500;
+    &:hover{
+        @apply text-blue-500;
+    }
+}
+
+
+// Buttons
+.re-button  {
+    @apply px-4 py-2 my-1 rounded ;
+    &.primary {
+      @apply bg-primary-500 text-white;
+      &:hover {
+        @apply bg-primary-600;
+      }
+    }
+
+    &.alert {
+        @apply bg-red-500 text-white;
+        &:hover {
+          @apply bg-red-600;
+        }
+      }
+
+    &.success {
+    @apply bg-green-500 text-white;
+    &:hover {
+        @apply bg-green-600;
+    }
+    }
+
+    &.warning {
+        @apply bg-orange-500 text-white;
+        &:hover {
+            @apply bg-orange-600;
+        }
+        }    
+
+  }
+
+  // Helpers
+  hr {
+    @apply my-4;
+  }
