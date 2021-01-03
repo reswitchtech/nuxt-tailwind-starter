@@ -20,7 +20,10 @@ $ yarn generate
 ## Use this as a base template
 ```bash
 # clone this repository
-$ git clone <repo-url>
+$ git clone https://github.com/reswitchtech/nuxt-tailwind-starter <project-name>
+
+# open the cloned directory
+$ cd <your-project>
 
 # delete .git folder
 $ rm -rf .git
