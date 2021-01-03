@@ -17,4 +17,16 @@ $ yarn start
 $ yarn generate
 ```
 
+## Use this as a base template
+```bash
+# clone this repository
+$ git clone <repo-url>
+
+# delete .git folder
+$ rm -rf .git
+
+# initialize git
+$ git init
+```
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
